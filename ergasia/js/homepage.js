@@ -57,12 +57,10 @@ function showSlides(n,id) {
 
     if (id===0)
     {
-        let index=slideIndex0;
         slides[slideIndex0-1].style.display = "block";
     }
     else
     {
-        let index=slideIndex1;
         slides[slideIndex1-1].style.display = "block";
     }
 }
