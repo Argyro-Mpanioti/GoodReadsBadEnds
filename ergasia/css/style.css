@@ -107,7 +107,7 @@ section .air.air4{
   font-size: large;
 }
 
-.navigation-links a:link{
+.navigation-links a:link, a:visited{
   text-decoration: none;
   color:white;
 }
@@ -121,6 +121,7 @@ section .air.air4{
   background-color: rgb(60,60,60,0.5);
   color:white;
 }
+
 
 
 .navigation-text{
@@ -452,6 +453,7 @@ body{
   border-color: rgb(47, 79, 79,0.5);
   border-style: solid;
   border-radius: 10px;
+  border-width: 1px;
   padding: 15px 10px;
   margin: 10px 10px 10px 10px;
 }
