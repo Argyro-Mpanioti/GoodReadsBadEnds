@@ -173,7 +173,7 @@ section .air.air4{
 }
 
 /*κείμενο του header*/
-.header .headergood h1{
+.headergood{
   font-family: 'Magneto','Arial', sans-serif;
   color: forestgreen;
   position:absolute;
@@ -181,7 +181,8 @@ section .air.air4{
   transform: translateX(-50%);
   top:0
 }
-.header .headerbad h1 {
+
+.headerbad{
   font-family: 'Magneto','Arial', sans-serif;
   color:crimson;
   position:absolute;
@@ -232,7 +233,6 @@ section .air.air4{
   position:relative;
   left: 3%
 }
-
 
 
 .slideshow-container {
