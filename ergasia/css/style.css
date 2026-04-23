@@ -139,12 +139,6 @@ section .air.air4{
   border-radius: 5px;
 }
 
-.navigation-text h1{
-
-}
-
-
-
 /*header*/
 .header{
   top: 14%;
@@ -152,7 +146,6 @@ section .air.air4{
   left: 50%;
   transform: translateX(-50%);
   width: 400px;
-
   background-color: rgb(200,200,250,0.8);
   z-index: 6;
   border-style: solid;
@@ -418,6 +411,15 @@ body{
   height: 28px;
 }
 
+.caption-text{
+  margin-bottom:40px;
+}
+
+.book-title{
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
 .search-bar button {
   border-radius: 0 8px 8px 0;
   float: right;
@@ -447,11 +449,18 @@ body{
 }
 
 /*Για τα αποτελέσματα της αναζήτησης*/
-.search-results{
-  order:2;
+.item-grid{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+#grid-homepage{
+  order:3
+}
+
+#grid-items{
+  order:2
 }
 
 .result {
@@ -467,7 +476,8 @@ body{
 }
 
 .result img{
-  width: 100%
+  width:150px;
+  height:270px;
 }
 
 .dislike-button{

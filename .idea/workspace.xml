@@ -19,7 +19,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba3b1267-14c7-47b0-afa6-a6b218b59f14" name="Changes" comment="mikres allages" />
+    <list default="true" id="ba3b1267-14c7-47b0-afa6-a6b218b59f14" name="Changes" comment="mikres allages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ergasia/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ergasia/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ergasia/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/ergasia/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ergasia/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/ergasia/items.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,6 +130,7 @@
       <workItem from="1776926363753" duration="59000" />
       <workItem from="1776926589580" duration="58000" />
       <workItem from="1776927995759" duration="233000" />
+      <workItem from="1776946198527" duration="5068000" />
     </task>
     <task id="LOCAL-00001" summary="commit1 html,css,js">
       <option name="closed" value="true" />
@@ -166,7 +172,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776928211852</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mikres allages">
+      <option name="closed" value="true" />
+      <created>1776946360189</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776946360189</updated>
+    </task>
+    <task id="LOCAL-00007" summary="mikres allages">
+      <option name="closed" value="true" />
+      <created>1776946434350</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776946434350</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +232,18 @@
           <option name="totalLines" value="1475" />
           <option name="info" value="mikres allages" />
         </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1776946360578" />
+          <option name="linesCode" value="536" />
+          <option name="totalLines" value="1475" />
+          <option name="info" value="mikres allages" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1776946434557" />
+          <option name="linesCode" value="536" />
+          <option name="totalLines" value="1475" />
+          <option name="info" value="mikres allages" />
+        </TimePoint>
       </list>
     </option>
     <option name="genericTimePoints">
@@ -228,6 +262,12 @@
         </TimePoint>
         <TimePoint>
           <option name="timestamp" value="1776928212390" />
+          <option name="linesCode" value="536" />
+          <option name="totalLines" value="1475" />
+          <option name="info" value="23 Απρ 2026" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1776946434557" />
           <option name="linesCode" value="536" />
           <option name="totalLines" value="1475" />
           <option name="info" value="23 Απρ 2026" />
