@@ -376,11 +376,11 @@ main{
   text-align: center;
   z-index: 100;
 }
-.footerheader{
+.footer-header{
   font-size: large;
   padding-top: 5px;
 }
-.footertext{
+.footer-text{
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -388,12 +388,15 @@ main{
 }
 
 /*background*/
-body{
+main{
   background-color: rgb(179,191,255);
+}
+
+body{
+  background: rgb(15, 15, 44);
   font-family: 'Century Gothic', sans-serif;
   pointer-events: all;
 }
-
 
 
 
