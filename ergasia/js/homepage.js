@@ -80,11 +80,12 @@ function dislikeStart(){
 
 function dislikeClicked(){
     if (disliked===false){
-        console.log(this.firstElementChild)
         this.firstElementChild.src="img/dislike-after.png"
+        this.nextSibling.textContent++;
     }
     else{
         this.firstElementChild.src="img/dislike-before.png"
+        this.nextSibling.textContent--;
     }
     disliked=!disliked
 }

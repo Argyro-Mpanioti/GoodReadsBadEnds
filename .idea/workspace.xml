@@ -19,9 +19,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba3b1267-14c7-47b0-afa6-a6b218b59f14" name="Changes" comment="mikres allages">
+    <list default="true" id="ba3b1267-14c7-47b0-afa6-a6b218b59f14" name="Changes" comment="dislike xrwma allagh">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ergasia/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/ergasia/homepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ergasia/js/homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/ergasia/js/homepage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +133,7 @@
       <workItem from="1777062097891" duration="214000" />
       <workItem from="1777100606509" duration="3015000" />
       <workItem from="1777112682388" duration="1732000" />
-      <workItem from="1777114965938" duration="2902000" />
+      <workItem from="1777114965938" duration="3413000" />
     </task>
     <task id="LOCAL-00001" summary="commit1 html,css,js">
       <option name="closed" value="true" />
@@ -240,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777116966300</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="dislike xrwma allagh">
+      <option name="closed" value="true" />
+      <created>1777117925656</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1777117925656</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +256,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit1 html,css,js" />
     <MESSAGE value="mikres allages" />
-    <option name="LAST_COMMIT_MESSAGE" value="mikres allages" />
+    <MESSAGE value="dislike xrwma allagh" />
+    <option name="LAST_COMMIT_MESSAGE" value="dislike xrwma allagh" />
   </component>
   <component name="com.gk646.codestats.settings.Save">
     <option name="commitTimePoints">
@@ -332,6 +340,12 @@
           <option name="totalLines" value="1537" />
           <option name="info" value="mikres allages" />
         </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1777117925840" />
+          <option name="linesCode" value="553" />
+          <option name="totalLines" value="1549" />
+          <option name="info" value="dislike xrwma allagh" />
+        </TimePoint>
       </list>
     </option>
     <option name="genericTimePoints">
@@ -373,9 +387,9 @@
           <option name="info" value="25 Απρ 2026" />
         </TimePoint>
         <TimePoint>
-          <option name="timestamp" value="1777116966500" />
-          <option name="linesCode" value="542" />
-          <option name="totalLines" value="1537" />
+          <option name="timestamp" value="1777117925840" />
+          <option name="linesCode" value="553" />
+          <option name="totalLines" value="1549" />
           <option name="info" value="25 Απρ 2026" />
         </TimePoint>
       </list>
