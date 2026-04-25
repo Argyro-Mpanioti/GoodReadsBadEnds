@@ -61,18 +61,30 @@ function showSlidesAutomatic() {
     setTimeout(showSlidesAutomatic, 2500);
 }
 
-let disliked=false
-
 //Κώδικας για τα dislike
 
-document.getElementById("book1").addEventListener("click", dislikeClicked);
+let disliked=false
+dislikeStart();
+
+function dislikeStart(){
+    let bookNumber;
+    let amountOfBooks=document.getElementById("grid-homepage").children.length
+    console.log(amountOfBooks)
+    for(bookNumber=1;bookNumber<=amountOfBooks;bookNumber++)
+    {
+        let bookId="book"+bookNumber
+        document.getElementById(bookId).addEventListener("click", dislikeClicked);
+    }
+}
+
 
 function dislikeClicked(){
     if (disliked===false){
-        document.getElementById("book1").firstElementChild.src="img/dislike-after.png"
+        console.log(this.firstElementChild)
+        this.firstElementChild.src="img/dislike-after.png"
     }
     else{
-        document.getElementById("book1").firstElementChild.src="img/dislike-before.png"
+        this.firstElementChild.src="img/dislike-before.png"
     }
     disliked=!disliked
 }
