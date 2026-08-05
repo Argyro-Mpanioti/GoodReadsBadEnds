@@ -40,6 +40,9 @@ async function doTranslation(data) {
         }
     }
 
+    //Change the titles of the 5 most popular books
+    await translatePopular();
+
     //Change the button image
     let image=document.getElementById("flag-image");
     if (language === "english") {
@@ -48,12 +51,40 @@ async function doTranslation(data) {
         image.src="./img/icons8-usa-50.png";
     }
 
-
     //Change the value of variable language
     if (language === "english") {
         language = "greek";
     } else {
         language = "english";
+    }
+}
+
+async function translatePopular(){
+    const grid = document.getElementById("grid-homepage");
+    const url = `http://127.0.0.1:5000/popular`;
+
+    const response = await fetch(url);
+    if (!response.ok) {
+        throw new Error(`Response status: ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    for (let i = 0; i < grid.childElementCount; i++)
+    {
+        let result=grid.children[i];
+        let bookTitle=result.getElementsByClassName("book-title").item(0);
+
+        let match=data.find(item=>(item.name===bookTitle.textContent || item.name_english===bookTitle.textContent));
+        if(match){
+            if(language==="greek"){
+                bookTitle.textContent=match.name_english;
+            }
+            else{
+                bookTitle.textContent=match.name;
+            }
+
+        }
     }
 }
 
@@ -200,7 +231,13 @@ async function getPopular() {
             result.appendChild(captionText);
             let bookTitle = document.createElement("div");
             bookTitle.setAttribute("class", "book-title");
-            bookTitle.innerText = data[i].name;
+            if(language==="greek")
+            {
+                bookTitle.innerText = data[i].name;
+            }
+            else{
+                bookTitle.innerText = data[i].name_english;
+            }
             captionText.appendChild(bookTitle);
 
             let priceDislike = document.createElement("div");
