@@ -299,10 +299,10 @@ async function handleInteraction(e) {
 }
 
 document.getElementsByClassName("navigation-text").item(0).addEventListener("click",async function goToHomepage(){
-    window.location.href="homepage2.html"
+    window.location.href="homepage.html"
 })
 document.getElementsByClassName("logo-name").item(0).addEventListener("click",async function goToHomepage(){
-    window.location.href="homepage2.html"
+    window.location.href="homepage.html"
 })
 
 async function dislike(bookId) {
