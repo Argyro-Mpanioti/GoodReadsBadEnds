@@ -1,47 +1,43 @@
 <!doctype html>
-<html lang="en">
+<html lang="el">
 <head>
     <meta charset="UTF-8" />
     <title>GoodReads-BadEnds</title>
     <link rel="icon" type="image/x-icon" href="../ergasia/img/logo10.png" />
-    <link rel="stylesheet" href="../ergasia/css/style.css" />
+    <link rel="stylesheet" href="../ergasia/css/style2.css" />
+
 </head>
 <body>
-    <!-- Κύματα  -->
-    <section>
-        <div class="air air1"></div>
-        <div class="air air2"></div>
-        <div class="air air3"></div>
-        <div class="air air4"></div>
-    </section>
-
-    <!-- Navigation με κουμπιά για αρχική σελίδα και άλλη σελίδα  -->
-    <nav>
-        <div class="navigation-text">
-            <img src="../ergasia/img/logo10.png" alt="logo" />
-            <h1>GoodReads - BadEnds</h1>
-        </div>
-        <div class="navigation-buttons">
-            <button class="active" onClick=window.location.href='../ergasia/homepage.html'>Homepage</button>
-            <button onClick=window.location.href='../ergasia/items.html'>Βιβλία</button>
-        </div>
-    </nav>
-    <!-- Logo και όνομα  -->
-    <div class="logo-name">
-        <img src="../ergasia/img/logo10.png" alt="logo">
-        <h1>GoodReads - BadEnds</h1>
-    </div>
 
     <main>
 
-        <div class="background-image">
-            <img src="./img/books_backgrounds.webp">
+        <button id="translation-button">
+            <img id="flag-image" src="./img/icons8-greece-50.png" alt="greek flag">
+            <span id="translation-button-text">Greek</span>
+        </button>
+        
+        <div id="background-image">
+            <img src="./img/books_backgrounds.webp" alt="A library">
+        </div>
+        <div id="website-name">
+            GoodReads<br>
+            <i>BadEnds</i>
+        </div>
+        <div id="buttons">
+            <button id="button-about-us" onclick="document.getElementById('items-before-grid').scrollIntoView({ behavior: 'smooth', block: 'center' })">
+                ABOUT THE WEBSITE
+            </button>
+            <button id="button-search" onclick=window.location.href="../ergasia/items.html">
+                SEARCH A BOOK
+            </button>
         </div>
 
-        <div class="items-before-grid">
+
+
+        <div id="items-before-grid">
             <div class="textbeforeslideshow">
-                <h1>Τι είναι το GoodReads-BadEnds?</h1>
-                <p>
+                <h1 id="header-what-is-it">Τι είναι το GoodReads-BadEnds?</h1>
+                <p id="p-what-is-it">
                     Το GoodReads-BadEnds είναι ο κατάλληλος ιστότοπος για όσους
                     απογοητεύτηκαν από το τέλος ενός βιβλίου.
                     Εδώ μπορείς να βρεις βιβλία
@@ -79,12 +75,11 @@
             </div>
 
             <div class="textafterslideshow">
-                <p>
-                    Με το πάτημα του κουμπιού "Βιβλία" στο navigation bar θα μεταβείς στη σελίδα με τον κατάλογο όλων των βιβλίων,
-                    όπου μπορείς να αναζητήσεις κάποιο συγκεκριμένο βιβλίο και να αντιδράσεις σε αυτό ή απλά να δεις τις αντιδράσεις άλλων
-                    βιβλιόφιλων!
+                <p id="p-under-slideshow">
+                    Πατώντας το κουμπί "ΠΡΟΒΟΛΗ ΒΙΒΛΙΩΝ" θα μεταβείς στη σελίδα με τον κατάλογο όλων των βιβλίων, όπου μπορείς να αναζητήσεις κάποιο συγκεκριμένο βιβλίο και να αντιδράσεις σε αυτό ή απλά να δεις τις αντιδράσεις άλλων βιβλιόφιλων!
+                    Επίσης, θα μπορέσεις να μάθεις πληροφορίες για τα βιβλία και τους συγγραφείς τους με ένα μόνο κλικ!
                 </p>
-                <h1>Tα top 5 βιβλία:</h1>
+                <h1 id="top-5-header">Tα top 5 βιβλία:</h1>
             </div>
         </div>
 
@@ -93,30 +88,30 @@
         </div>
     </main>
     <div class="footer">
-        <div class="footer-title">Μέλη ομάδας</div>
+        <div class="footer-title" id="footer-header">Η ομάδα μας</div>
         <div class="members">
             <div class="team-member">
                 <a href="https://github.com/Argyro-Mpanioti"></a>
-                <img src="./img/Frontend.png" alt="Frontend">
-                <div class="member-name">
+                <img src="./img/FullStack.png" alt="FullStack">
+                <div class="member-name" id="member1">
                     Αργυρώ Μπανιώτη
                 </div>
             </div>
             <div class="team-member">
                 <img src="./img/Database.png" alt="Database">
-                <div class="member-name">
+                <div class="member-name" id="member2">
                     Ελισάβετ Κυριαζοπούλου
                 </div>
             </div>
             <div class="team-member">
                 <img src="./img/Database.png" alt="Database">
-                <div class="member-name">
+                <div class="member-name" id="member3">
                 Δήμητρα Λιλή
                 </div>
             </div>
             <div class="team-member">
                 <img src="./img/Backend.png" alt="Backend">
-                <div class="member-name">
+                <div class="member-name" id="member4">
                 Αλεξάνδρα Κολπακίδη
             </div>
         </div>
