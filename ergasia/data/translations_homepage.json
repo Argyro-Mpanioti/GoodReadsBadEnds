@@ -1,0 +1,30 @@
+{
+  "english": {
+    "translation-button-text": "English",
+    "button-about-us": "ABOUT THE WEBSITE",
+    "button-search": "SEARCH A BOOK",
+    "header-what-is-it": "What is GoodReads-BadEnds?",
+    "p-what-is-it": "GoodReads - BadEnds is the right website for those who were disappointed by the ending of a book. Here you can find books that made other readers angry, disappointed and outraged and express your hatred towards them too!",
+    "p-under-slideshow": "By clicking the \"SEARCH A BOOK\" button you will be taken to the page with the list of all books, where you can search for a specific book and react to it or simply see the reactions of other bibliophiles! You will also be able to learn information about the books and their authors by clicking on them!",
+    "top-5-header": "Our 5 Most Hated Books",
+    "footer-header": "The GoodReads-BadEnds team",
+    "member1": "Argyro Banioti",
+    "member2": "Elizabeth Kyriazopoulou",
+    "member3": "Dimitra Lili",
+    "member4": "Alexandra Kolpakidi"
+  },
+  "greek": {
+    "translation-button-text": "Greek",
+    "button-about-us": "ΣΧΕΤΙΚΑ ΜΕ ΤΗΝ ΙΣΤΟΣΕΛΙΔΑ",
+    "button-search": "ΠΡΟΒΟΛΗ ΒΙΒΛΙΩΝ",
+    "header-what-is-it": "Τι είναι το GoodReads-BadEnds?",
+    "p-what-is-it": "Το GoodReads-BadEnds είναι ο κατάλληλος ιστότοπος για όσους απογοητεύτηκαν από το τέλος ενός βιβλίου. Εδώ μπορείς να βρεις βιβλία που νευρίασαν,απογοήτευσαν και εξόργισαν άλλους αναγνώστες και να εκφράσεις κι εσύ το μίσος σου προς αυτά!",
+    "p-under-slideshow": "Πατώντας το κουμπί \"ΠΡΟΒΟΛΗ ΒΙΒΛΙΩΝ\" θα μεταβείς στη σελίδα με τον κατάλογο όλων των βιβλίων, όπου μπορείς να αναζητήσεις κάποιο συγκεκριμένο βιβλίο και να αντιδράσεις σε αυτό ή απλά να δεις τις αντιδράσεις άλλων βιβλιόφιλων! Επίσης, θα μπορέσεις να μάθεις πληροφορίες για τα βιβλία και τους συγγραφείς τους με ένα μόνο κλικ!",
+    "top-5-header": "Τα 5 πιο μισητά βιβλία",
+    "footer-header": "Η ομάδα μας",
+    "member1": "Αργυρώ Μπανιώτη",
+    "member2": "Ελισάβετ Κυριαζοπούλου",
+    "member3": "Δήμητρα Λιλή",
+    "member4": "Αλεξάνδρα Κολπακίδη"
+  }
+}

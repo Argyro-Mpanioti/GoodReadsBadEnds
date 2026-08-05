@@ -4,6 +4,7 @@ from flask_cors import CORS
 from bson.objectid import ObjectId
 import numpy as np
 from pymongo import MongoClient
+from itertools import chain
 
 app = Flask(__name__)
 CORS(app)
@@ -13,8 +14,8 @@ app.config["MONGO_URI"] = "mongodb+srv://yro:123123123@cluster0.vblbwzh.mongodb.
 try:
     uri = "mongodb+srv://yro:123123123@cluster0.vblbwzh.mongodb.net/?appName=Cluster0"
     client=MongoClient(uri)
-    database=client["books"]
-    collection=database["books"]
+    database=client["books_with_authors"]
+    collection=database["books_with_authors"]
 
 
     mongo = PyMongo(app)
@@ -26,10 +27,15 @@ try:
         return {
             "id": str(book["_id"]),
             "name": book.get("name"),
+            "name_english": book.get("name_english"),
             "image": book.get("image"),
             "description": book.get("description"),
+            "description_english": book.get("description_english"),
             "likes": book.get("likes",0),
-            "price": book.get("price",0)
+            "price": book.get("price",0),
+            "author": book.get("author"),
+            "wikipedia_link_book": book.get("wikipedia_link_book"),
+            "wikipedia_link_author": book.get("wikipedia_link_author")
         }
 
     @app.route('/')
@@ -39,18 +45,26 @@ try:
 
     @app.route('/search', methods=['GET'])
     def search_books():
-        name = request.args.get("name", "")
+        name_any_language = request.args.get("name", "")
 
-        if name == "":
+        if name_any_language == "":
             books= db_books.find()
         else:
 
-            books= db_books.find({"name": {"$regex": name, "$options":"i"}})
+            #Search in both english and greek titles
+            books1= db_books.find({"name": {"$regex": name_any_language, "$options":"i"}})
+            books2= db_books.find({"name_english": {"$regex": name_any_language, "$options":"i"}})
+            #Merge results
+            books=chain(books1,books2)
 
         final_items=[serialize_book(b) for b in books]
         final_items=sorted(final_items, key=lambda x: x["name"], reverse=False)
 
-        return jsonify(final_items)
+        #Delete duplicates from greek and english results
+        unique_data = []
+        [unique_data.append(item) for item in final_items if item not in unique_data]
+
+        return jsonify(unique_data)
 
 
     @app.route('/like', methods=['POST'])

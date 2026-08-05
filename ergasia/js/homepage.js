@@ -1,8 +1,96 @@
+let language="greek";
+
+document.getElementById("translation-button").addEventListener("click", async function loadTranslation() {
+
+    fetch('./data/translations_homepage.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => doTranslation(data))
+        .catch(error => console.error('Failed to fetch data:', error));})
+
+async function doTranslation(data) {
+
+    let newData;
+    if(language==="greek")
+    {
+        newData=data.english;
+    }
+    else{
+        newData=data.greek;
+    }
+    for (let key in newData)
+    {
+        //Get the element that has the key as the id
+        let changingElement=document.getElementById(key);
+
+        //If the element exists
+        if(!(changingElement === null)){
+            //Make the value its new text
+            if(changingElement instanceof HTMLInputElement){
+                changingElement.placeholder=newData[key];
+            }
+            else{
+                console.log(changingElement);
+                changingElement.innerText=newData[key];
+            }
+        }
+    }
+
+    //Change the button image
+    let image=document.getElementById("flag-image");
+    if (language === "english") {
+        image.src="./img/icons8-greece-50.png";
+    } else {
+        image.src="./img/icons8-usa-50.png";
+    }
+
+
+    //Change the value of variable language
+    if (language === "english") {
+        language = "greek";
+    } else {
+        language = "english";
+    }
+}
+
 //Κώδικας για τα slideshow
 
 let slideIndex = 0;
 showSlides(slideIndex);
 showSlidesAutomatic();
+
+myMove("website-name",-5,5,0,100);
+myMove("website-name-background",-5.15,4.85,0,50);
+myMove("background-image",10,0,0,100);
+myMove("buttons",-5,5,0,100);
+
+function myMove(elementId,startPosition,endPosition,startOpacity,endOpacity) {
+    console.log(elementId);
+    const elem = document.getElementById(elementId);
+
+    const duration = 1000;
+    let startTime = null;
+
+    function animate(currentTime) {
+        if (!startTime)
+        {
+            startTime = currentTime;
+        }
+        const progress = Math.min((currentTime - startTime) / duration, 1);
+        const currentPosition = startPosition + (endPosition - startPosition) * progress;
+        elem.style.left = currentPosition + '%';
+        const currentOpacity = startOpacity + (endOpacity - startOpacity) * progress;
+        elem.style.opacity = currentOpacity + "%";
+        if (progress < 1) {
+            requestAnimationFrame(animate);
+        }
+    }
+    requestAnimationFrame(animate);
+}
 
 // Next/previous controls
 function plusSlides(n) {

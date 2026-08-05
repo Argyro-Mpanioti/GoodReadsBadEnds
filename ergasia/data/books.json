@@ -4,199 +4,299 @@
       "$oid": "69efbc5a018c03efc311be53"
     },
     "name": "Ο Αλχιμιστής",
+    "name_english": "The Alchemist",
     "image": "https://cdn.politeianet.gr/data/images/Product/384382/1/el/2350-2351.jpg?d=20250706120033",
     "description": "Αν και ο Πάολο Κοέλιο δεν συνηθίζει να με απογοητεύει, σε αυτό το βιβλίο το έκανε",
+    "description_english": "Although Paulo Coelho doesn't usually disappoint me, in this book he did.",
     "likes": 15,
-    "price": 9.99
+    "price": 9.99,
+    "author": "Paulo Coelho",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/The_Alchemist_(novel)",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/Paulo_Coelho"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be57"
     },
-    "name": "Harry Potter and the Deathly Hallows",
+    "name": "Ο Χάρι Πότερ και οι Κλήροι του Θανάτου",
+    "name_english": "Harry Potter and the Deathly Hallows",
     "image": "https://m.media-amazon.com/images/I/81YOuOGFCJL.jpg",
     "description": "Μεγάλη προσμονή, μέτριο τέλος.",
+    "description_english": "Great anticipation, mediocre ending.",
     "likes": 21,
-    "price": 22
+    "price": 22,
+    "author": "J. K. Rowling",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/Joanne_Rowling"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be58"
     },
     "name": "The Hobbit",
+    "name_english": "The Hobbit",
     "image": "https://m.media-amazon.com/images/I/91b0C2YNSrL.jpg",
     "description": "Ίσως αν τα expectations ήταν μικρότερα και δεν είχα διαβάσει LOTR να μου άρεσε:/",
+    "description_english": "Maybe if my expectations were lower and I hadn't read LOTR I would have liked it :/",
     "likes": 3,
-    "price": 16.5
+    "price": 16.5,
+    "author": "J. R. R. Tolkien",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/The_Hobbit",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/J._R._R._Tolkien"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be59"
     },
     "name": "Divergent",
+    "name_english": "Divergent",
     "image": "https://images.thenile.io/r1000/9780007420421.jpg",
     "description": "Χάνει το νόημα προς το τέλος.",
+    "description_english": "It loses its meaning towards the end.",
     "likes": 7,
-    "price": 11.9
+    "price": 11.9,
+    "author": "Veronica Roth",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/Divergent_(novel)",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/Veronica_Roth"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be60"
     },
-    "name": "The Road",
+    "name": "Ο Δρόμος",
+    "name_english": "The Road",
     "image": "https://m.media-amazon.com/images/I/81rfbliaDmL._SL1286_.jpg",
     "description": "Σκοτεινό χωρίς λόγο.",
+    "description_english": "Dark for no reason.",
     "likes": 4,
-    "price": 17
+    "price": 17,
+    "author": "Cormac McCarthy",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/The_Road",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/Cormac_McCarthy"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be5b"
     },
     "name": "Ready Player One",
+    "name_english": "Ready Player One",
     "image": "https://m.media-amazon.com/images/I/91Be3OR3f8L._SL1500_.jpg",
     "description": "Πολλά references, λίγη ουσία.",
+    "description_english": "Many references, little substance.",
     "likes": 4,
-    "price": 14.2
+    "price": 14.2,
+    "author": "Ernest Cline",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/Ready_Player_One",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/Ernest_Cline"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be56"
     },
     "name": "The Da Vinci Code",
+    "name_english": "The Da Vinci Code",
     "image": "https://tse2.mm.bing.net/th/id/OIP.tkIBis3qiDS0x-B_piqtOQHaLj?r=0&cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3",
     "description": "HOT TAKE. Υπερβολική επανάληψη",
+    "description_english": "HOT TAKE. Excessive repetition",
     "likes": 4,
-    "price": 14.6
+    "price": 14.6,
+    "author": "Dan Brown",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/The_Da_Vinci_Code",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/Dan_Brown"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be62"
     },
-    "name": "Before the coffee gets cold",
+    "name": "Πριν κρυώσει ο καφές",
+    "name_english": "Before the coffee gets cold",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDa_r21DQ34xhZFC1khfx7_Cco9V0RQNycb_9WFTgfzUYEIBQCA00u-k_kGP4N4TjQeZfrz5nsnT5afzcMOsVYeubbwfWxmoqyjcGwV2bSYtjjMyA&s=10&ec=121643184",
     "description": "Δεν καταλαβαίνω το χαιπ. Προσωπικά θα ήθελα οι ιστορίες να μην εξελίσσονται τόσο γραμμικά αλλά να μπλέκονται περισσότερο η μία με την άλλη.",
+    "description_english": "I don't understand the hype. Personally, I would like the stories to not develop so linearly but to be more intertwined with each other.",
     "likes": 4,
-    "price": 25
+    "price": 25,
+    "author": "Toshikazu Kawaguchi",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/Before_the_Coffee_Gets_Cold",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/Toshikazu_Kawaguchi"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be5c"
     },
-    "name": "The Girl on the Train",
+    "name": "Το κορίτσι του τρένου",
+    "name_english": "The Girl on the Train",
     "image": "https://cdn2.penguin.com.au/covers/original/9781784161750.jpg",
     "description": "Μπερδεμένο και απογοητευτικό τέλος. Θα μπορούσε να τελλειώσει και ευχάριστα δεν χρειαζόταν έτσι",
+    "description_english": "Confused and disappointing ending. It could have ended better and thankfully it didn't have to.",
     "likes": 3,
-    "price": 13.5
+    "price": 13.5,
+    "author": "Paula Hawkins",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/The_Girl_on_the_Train_(novel)",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/Paula_Hawkins_(author)"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be61"
     },
     "name": "A Game of Thrones",
+    "name_english": "A Game of Thrones",
     "image": "https://m.media-amazon.com/images/I/91dSMhdIzTL.jpg",
     "description": "Πολλοί χαρακτήρες, χαοτική πλοκή.",
+    "description_english": "Many characters, chaotic plot.",
     "likes": 1,
-    "price": 25.9
+    "price": 25.9,
+    "author": "George R. R. Martin",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/A_Game_of_Thrones",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/George_R._R._Martin"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be5a"
     },
     "name": "Maze Runner 2: The Scorch Trials",
+    "name_english": "Maze Runner 2: The Scorch Trials",
     "image": "https://m.media-amazon.com/images/I/91Hjw4WNnGL.jpg",
     "description": "Το 1ο τρομερό, το 3ο καλό γιατί τουλάχιστον δίνει εξηγήσεις. Με το 2ο τι πάθανε? Προβλέψιμο και χωρις να επεξηγεί πουθενά βασικά πράγματα",
+    "description_english": "The 1st is terrible, the 3rd is good because at least it explains things. What happened to the 2nd? Predictable and without explaining basic things anywhere",
     "likes": 10,
-    "price": 12.8
+    "price": 12.8,
+    "author": "James Dashner",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/The_Scorch_Trials",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/James_Dashner"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be51"
     },
-    "name": "The Catcher in the Rye",
+    "name": "Ο φύλακας στη σίκαλη",
+    "name_english": "The Catcher in the Rye",
     "image": "https://cdn.britannica.com/94/181394-050-2F76F7EE/Reproduction-cover-edition-The-Catcher-in-the.jpg",
     "description": "Ο πρωταγωνιστής απλά γκρινιάζει μέχρι να τελειώσει.",
+    "description_english": "The protagonist just whines until it's over.",
     "likes": 5,
-    "price": 10.8
+    "price": 10.8,
+    "author": "J. D. Salinger",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/J._D._Salinger"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be55"
     },
     "name": "Λογοκρίνωντας μια ιρανική ερωτική ιστορία",
-    "image": "https://cdn.politeianet.gr/data/images/Product/72020/1/el/3330-6022.jpg?d=20250304101452",
+    "name_english": "Censoring an Iranian love story",
+    "image": "https://m.media-amazon.com/images/I/814-mEQ+hfL._SL1500_.jpg",
     "description": "Αν και ο συγγραφέας λέει ότι θέλει να κρατήσει μια κριτική στάση για το καθεστώς στην πραγματικότητα απλά προσπαθεί να το κάνει και το κάνει πολύ λιγότερο από ότι θα όφειλε με βαση το πώς παρουσιάζει ο ίδιος το βιβλίο του.",
+    "description_english": "Although the author says he wants to maintain a critical stance towards the regime, in reality he is simply trying to do so and does so much less than he should based on how he presents his book.",
     "likes": 28,
-    "price": 13.15
+    "price": 13.15,
+    "author": "Shahriar Mandanipour",
+    "wikipedia_link_book":"https://www.iranicaonline.org/articles/censoring-an-iranian-love-story/",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/Shahriar_Mandanipour"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be5e"
     },
-    "name": "The Fault in Our Stars",
+    "name": "Το Λάθος Αστέρι",
+    "name_english": "The Fault in Our Stars",
     "image": "https://m.media-amazon.com/images/I/81a4kCNuH+L.jpg",
     "description": "Υπερβολικά δραματικό.",
+    "description_english": "Overly dramatic.",
     "likes": 29,
-    "price": 10.5
+    "price": 10.5,
+    "author": "John Green",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/The_Fault_in_Our_Stars",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/John_Green"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be50"
     },
     "name": "1984",
+    "name_english": "1984",
     "image": "https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg",
     "description": "Αν και ειναι αρκετα ενδιφέρον δεν είναι ξεκάθαρο για το τι μιλάει ακριβώς ο συγγραφέας και είναι και αρκετά καταθληπτικό.",
+    "description_english": "Although it is quite interesting, it is not clear what exactly the author is talking about and it is also quite depressing.",
     "likes": 5,
-    "price": 15
+    "price": 15,
+    "author": "George Orwell",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/Nineteen_Eighty-Four",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/George_Orwell"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be5d"
     },
     "name": "Gone Girl",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPUbpzC2GF_IAkIAqgxoeIGYAijN44LfykSPp609w6yYM9cipO",
+    "name_english": "Gone Girl",
+    "image": "https://www.hachette.com.au/content/books/9780297859406.jpg",
     "description": "Περίεργο twist αλλά όχι ικανοποιητικό.",
+    "description_english": "A strange twist but not a satisfying one.",
     "likes": 7,
-    "price": 15.3
+    "price": 15.3,
+    "author": "Gillian Flynn",
+    "wikipedia_link_book": "https://en.wikipedia.org/wiki/Gone_Girl_(novel)",
+    "wikipedia_link_author": "https://en.wikipedia.org/wiki/Gillian_Flynn"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be4f"
     },
-    "name": "The Great Gatsby",
+    "name": "Ο υπέροχος Γκάτσμπυ",
+    "name_english": "The Great Gatsby",
     "image": "https://m.media-amazon.com/images/I/81af+MCATTL.jpg",
     "description": "Όλο build-up και στο τέλος… τίποτα. Απλά απογοήτευση.",
+    "description_english": "All build-up and in the end… nothing. Just disappointment.",
     "likes": 3,
-    "price": 12.5
+    "price": 12.5,
+    "author": "F. Scott Fitzgerald",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/The_Great_Gatsby",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/F._Scott_Fitzgerald"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be5f"
     },
-    "name": "Life of Pi",
+    "name": "Η Ζωή του Πι",
+    "name_english": "Life of Pi",
     "image": "https://tse2.mm.bing.net/th/id/OIP.yqeemU9iRMWoprX4UO8CZgAAAA?r=0&cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3",
     "description": "Ωραία ιδέα αλλά μπερδεμένο τέλος.",
+    "description_english": "Nice idea but confusing ending.",
     "likes": 9,
-    "price": 14.8
+    "price": 14.8,
+    "author": "Yann Martel",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/Life_of_Pi",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/Yann_Martel"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be52"
     },
     "name": "Όταν σκοτώνουν τα κοτσίφια",
+    "name_english": "To Kill A Mockingbird",
     "image": "https://tse3.mm.bing.net/th/id/OIP.B_OCUJKMkXfm8G816ECDjgHaLJ?r=0&cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3",
     "description": "Δεν καταλαβαίνω γιατί ειναι διάσημο.",
+    "description_english": "I don't understand why it's famous.",
     "likes": 1,
-    "price": 18.2
+    "price": 18.2,
+    "author": "Harper Lee",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/Harper_Lee"
   },
   {
     "_id": {
       "$oid": "69efbc5a018c03efc311be54"
     },
     "name": "Twilight",
+    "name_english": "Twilight",
     "image": "https://www.thoughtco.com/thmb/SuveYjmc-r0wMBYj4QOea0cE7D0=/1488x2338/filters:fill(auto,1)/Twilight_book_cover-589fa4625f9b58819cb2e790.jpg",
     "description": "Αμήχανη ιστορία με περίεργο τέλος.",
+    "description_english": "An awkward story with a strange ending.",
     "likes": 43,
-    "price": 11.4
+    "price": 11.4,
+    "author": "Stephenie Meyer",
+    "wikipedia_link_book":"https://en.wikipedia.org/wiki/Twilight_(Meyer_novel)",
+    "wikipedia_link_author":"https://en.wikipedia.org/wiki/Stephanie_Meyer"
   }
 ]

@@ -1,0 +1,26 @@
+{
+  "english": {
+    "translation-button-text": "English",
+    "search-input": "Search a book...",
+    "button-homepage": "Homepage",
+    "button-books": "Books",
+    "footer-header": "The GoodReads-BadEnds team",
+    "member1": "Argyro Banioti",
+    "member2": "Elizabeth Kyriazopoulou",
+    "member3": "Dimitra Lili",
+    "member4": "Alexandra Kolpakidi",
+    "no-results-message": "No Results Found!"
+  },
+  "greek": {
+    "translation-button-text": "Greek",
+    "search-input": "Ψάξε ένα βιβλίο...",
+    "button-homepage": "Αρχική",
+    "button-books": "Βιβλία",
+    "footer-header": "Η ομάδα μας",
+    "member1": "Αργυρώ Μπανιώτη",
+    "member2": "Ελισάβετ Κυριαζοπούλου",
+    "member3": "Δήμητρα Λιλή",
+    "member4": "Αλεξάνδρα Κολπακίδη",
+    "no-results-message": "Το βιβλίο που αναζητάτε δεν υπάρχει!"
+  }
+}

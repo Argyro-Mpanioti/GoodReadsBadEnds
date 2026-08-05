@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@600&display=swap');
+
+body{
+  background: #bdbdbd;
+  font-family: "JetBrains Mono", monospace;
+}
+
+#translation-button{
+  z-index:2;
+
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  margin-left:10px;
+  margin-top:10px;
+
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 500;
+  height: 41px;
+  padding: 2px 17px;
+
+
+}
+
+#translation-button:hover{
+  background-color:rgba(0, 0, 0, .05);
+  cursor: pointer;
+}
+
+.translation-button-text{
+  position: relative;
+}
+
+#translation-button img{
+  height:20px;
+  padding-right: 6px;
+}
 /*Αρχικά έχω τα κομμάτια του css που χρησιμοποιούνται στο homepage.html ή και στα δύο html αρχεία
 και στην συνέχεια έχω τα κομμάτια του css που χρησιμοποιούνται στο items.html*/
 
@@ -7,7 +54,7 @@ section{
   position: relative;
   width: 100%;
   height: 35vh;
-  background: rgb(15, 15, 44);
+  background: #111144;
   overflow: hidden;
 }
 section .air {
@@ -16,7 +63,7 @@ section .air {
   left: 0;
   width: 100%;
   height: 100px;
-  background: url(../img/wavegray.png);
+  background: url(../img/wave_dark_gray.png);
   background-size: 1000px 100px;
 }
 section .air.air1{
@@ -63,20 +110,58 @@ section .air.air4{
   box-sizing: border-box;
 }
 
-.background-image{
+#background-image{
   position: relative;
 }
 
-.background-image img{
+#background-image img{
+  margin-top:4%;
   position: absolute;
   right:0;
   width: 30%;
+  border-radius: 8px 0 0 8px;
 }
 
+#website-name{
+  color: rgb(0,0,33,1);
+  width:90%;
+  margin-top: 22%;
+  z-index: 1;
+  font-size: 87px;
+  position: relative;
+  font-family: "Oxanium", sans-serif;
+  font-weight: 600;
+  filter: drop-shadow(1px 2px 2px mediumblue);
+}
+
+#buttons{
+  z-index: 1;
+  position: relative;
+  width: 90%;
+}
+
+#buttons button {
+  background-color: #c9c9c9;
+  font-family: inherit;
+  padding: 12px;
+  margin-top: 2%;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: #111144;
+  border-width: thin;
+  margin-right: 1.7%;
+  filter: drop-shadow(2px 2px 2px black);
+}
+
+#buttons button:hover{
+  cursor: pointer;
+  background-color: #111144;
+  border-color: #111144;
+  color:white;
+}
 .items-before-grid{
-  left:0;
-  width:70%;
-  margin-top: 20%;
+  padding-top: 10%;
 }
 
 /*navigation*/
@@ -85,6 +170,7 @@ nav{
   top: 0;
   width: 100%;
   color: ghostwhite;
+  background-color: #111144;
   height:10%;
 
   display: flex;
@@ -106,7 +192,7 @@ nav{
   padding: 20px 20px 20px 20px;
   font-size: large;
   border-style: none;
-  font-family: 'Century Gothic', sans-serif;
+  font-family: inherit;
   background-color: transparent;
   color:white;
 }
@@ -125,7 +211,7 @@ nav{
 }
 
 /*text και εικόνα στο navigation*/
-.navigation-text{
+.navigation-not-buttons{
   flex:1;
   display: flex;
   align-items: center;
@@ -133,10 +219,32 @@ nav{
 }
 
 /*εικόνα logo του navigation*/
-.navigation-text img {
+.navigation-not-buttons img {
   height: 40px;
   margin-right: 10px;
   border-radius: 5px;
+}
+
+.navigation-text{
+  display:flex;
+  align-items: center;
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.navigation-text h1:hover{
+  filter: drop-shadow(0.08em 0.08em 0.01em #505050);
+}
+
+.navigation-text img:hover{
+  filter: drop-shadow(0.1em 0.1em 0.01em #505050);
+}
+
+.navigation-text:hover{
+  cursor:pointer;
 }
 
 /*logo και όνομα*/
@@ -153,6 +261,12 @@ nav{
   border-width: 2px;
   display: flex;
   align-items: center;
+  font-family: "Oxanium", sans-serif;
+  font-weight: 400;
+}
+
+.logo-name:hover{
+  cursor:pointer;
 }
 
 /*εικόνα logo*/
@@ -201,6 +315,9 @@ main{
   padding-left: 2%;
 }
 
+.textbeforeslideshow{
+  padding-top:10%;
+}
 
 .textbeforeslideshow h1, .textafterslideshow h1{
   text-transform: capitalize;
@@ -213,6 +330,10 @@ main{
 .textbeforeslideshow p, .textafterslideshow p{
   position:relative;
   left: 2%
+}
+
+.textafterslideshow p{
+  margin-bottom: 10%;
 }
 
 
@@ -323,13 +444,21 @@ main{
   position:relative;
   max-width: 200px;
   min-width: 200px;
-  background-color: #e8e7e7;
+  background-color: #c9c9c9;
   border-color: rgb(47, 79, 79,0.5);
   border-style: solid;
   border-radius: 10px;
   border-width: 1px;
   padding: 15px;
   margin: 10px 10px 10px 10px;
+}
+
+.result:hover{
+  box-shadow: 0 0 10px #222266;
+}
+
+.logo-name:hover{
+  filter: drop-shadow(2px 2px 2px red)drop-shadow(-2px -2px 2px green)
 }
 
 .result img{
@@ -346,9 +475,26 @@ main{
   font-size: large;
   font-weight: bolder;
   margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
+.book-title span:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.author-name{
+  font-variant: small-caps;
+  color: #2f2f2f;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
+.author-name span:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
 
 .price-dislike{
   position: absolute;
@@ -392,6 +538,10 @@ main{
   rotate:180deg;
 }
 
+.dislike-section img:hover{
+  filter: invert(16%) sepia(99%) saturate(7404%) hue-rotate(4deg) brightness(55%) contrast(118%);
+}
+
 
 
 /*footer*/
@@ -403,9 +553,10 @@ main{
   z-index: 100;
   padding-bottom:2%;
   position: relative;
+  margin-top: 8%;
 }
 .footer-title{
-  font-size: larger;
+  font-size: 27px;
   padding-top: 2%;
   padding-bottom: 2%;
 }
@@ -427,13 +578,23 @@ main{
   border-radius: 5%;
 }
 .team-member a{
-  width: 15%;
+  border-style: solid;
+  border-color: #555555;
+  width:inherit;
   height: 200px;
   margin-right: 20px;
   border-radius: 5%;
   display: block;
   position: absolute;
   z-index: 1;
+}
+
+.team-member a:hover{
+  border-style: solid;
+  border-color: #a0a0a0;
+  width:15%;
+  filter: drop-shadow(2px 2px 2px #a0a0a0)drop-shadow(-2px -2px 2px #a0a0a0);
+  cursor: pointer;
 }
 
 .team-member img{
@@ -443,10 +604,6 @@ main{
   margin-bottom: 5%;
 }
 
-body{
-  background: #e5e3e3;
-  font-family: 'Century Gothic', sans-serif;
-}
 
 /*Από αυτό το σημείο του αρχείου και παρακάτω υπάρχουν τα στοιχεία
 που χρησιμοποιούνται μόνο από το αρχείο items.html*/
@@ -459,20 +616,27 @@ body{
   margin-bottom: 45px;
   font-size: 17px;
   height: 28px;
+  font-family: inherit;
 }
 
-.search-bar button {
+#search-input{
+  border-style: none;
+}
+
+.search-bar button
+{
   border-radius: 0 8px 8px 0;
   float: right;
   padding: 6px;
   margin-top: 8px;
   margin-right: 16px;
-  background: #ddd;
+  background: #d0d0d0;
   height: 28px;
   cursor: pointer;
   position: relative;
   display: flex;
   align-items: center;
+  border-style: none;
 }
 
 .search-bar button:hover{
