@@ -33,7 +33,7 @@
     "_id": {
       "$oid": "69efbc5a018c03efc311be58"
     },
-    "name": "The Hobbit",
+    "name": "Χόμπιτ",
     "name_english": "The Hobbit",
     "image": "https://m.media-amazon.com/images/I/91b0C2YNSrL.jpg",
     "description": "Ίσως αν τα expectations ήταν μικρότερα και δεν είχα διαβάσει LOTR να μου άρεσε:/",
@@ -48,7 +48,7 @@
     "_id": {
       "$oid": "69efbc5a018c03efc311be59"
     },
-    "name": "Divergent",
+    "name": "Απόκλιση",
     "name_english": "Divergent",
     "image": "https://images.thenile.io/r1000/9780007420421.jpg",
     "description": "Χάνει το νόημα προς το τέλος.",
@@ -78,7 +78,7 @@
     "_id": {
       "$oid": "69efbc5a018c03efc311be5b"
     },
-    "name": "Ready Player One",
+    "name": "Αν είσαι έτοιμος, πάτα Enter",
     "name_english": "Ready Player One",
     "image": "https://m.media-amazon.com/images/I/91Be3OR3f8L._SL1500_.jpg",
     "description": "Πολλά references, λίγη ουσία.",
@@ -93,7 +93,7 @@
     "_id": {
       "$oid": "69efbc5a018c03efc311be56"
     },
-    "name": "The Da Vinci Code",
+    "name": "Ο κώδικας Da Vinci",
     "name_english": "The Da Vinci Code",
     "image": "https://tse2.mm.bing.net/th/id/OIP.tkIBis3qiDS0x-B_piqtOQHaLj?r=0&cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3",
     "description": "HOT TAKE. Υπερβολική επανάληψη",
@@ -138,7 +138,7 @@
     "_id": {
       "$oid": "69efbc5a018c03efc311be61"
     },
-    "name": "A Game of Thrones",
+    "name": "Παιχνίδι του Στέμματος",
     "name_english": "A Game of Thrones",
     "image": "https://m.media-amazon.com/images/I/91dSMhdIzTL.jpg",
     "description": "Πολλοί χαρακτήρες, χαοτική πλοκή.",
@@ -153,7 +153,7 @@
     "_id": {
       "$oid": "69efbc5a018c03efc311be5a"
     },
-    "name": "Maze Runner 2: The Scorch Trials",
+    "name": "Ο Λαβύρινθος: Πύρινες Δοκιμασίες",
     "name_english": "Maze Runner 2: The Scorch Trials",
     "image": "https://m.media-amazon.com/images/I/91Hjw4WNnGL.jpg",
     "description": "Το 1ο τρομερό, το 3ο καλό γιατί τουλάχιστον δίνει εξηγήσεις. Με το 2ο τι πάθανε? Προβλέψιμο και χωρις να επεξηγεί πουθενά βασικά πράγματα",
@@ -228,7 +228,7 @@
     "_id": {
       "$oid": "69efbc5a018c03efc311be5d"
     },
-    "name": "Gone Girl",
+    "name": "Το κορίτσι που εξαφανίστηκε",
     "name_english": "Gone Girl",
     "image": "https://www.hachette.com.au/content/books/9780297859406.jpg",
     "description": "Περίεργο twist αλλά όχι ικανοποιητικό.",
@@ -288,7 +288,7 @@
     "_id": {
       "$oid": "69efbc5a018c03efc311be54"
     },
-    "name": "Twilight",
+    "name": "Λυκόφως",
     "name_english": "Twilight",
     "image": "https://www.thoughtco.com/thmb/SuveYjmc-r0wMBYj4QOea0cE7D0=/1488x2338/filters:fill(auto,1)/Twilight_book_cover-589fa4625f9b58819cb2e790.jpg",
     "description": "Αμήχανη ιστορία με περίεργο τέλος.",
